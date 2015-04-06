@@ -47,7 +47,7 @@ end
 #   end
 # end
 
-activate :php
+# activate :php
 
 set :css_dir, 'stylesheets'
 
