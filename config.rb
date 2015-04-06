@@ -47,8 +47,6 @@ end
 #   end
 # end
 
-activate :php
-
 set :css_dir, 'stylesheets'
 
 set :js_dir, 'javascripts'
