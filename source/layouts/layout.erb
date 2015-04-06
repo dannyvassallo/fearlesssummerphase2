@@ -14,11 +14,10 @@
   </head>
 
   <body class="<%= page_classes %>">
-    <%= partial "partials/header" %>
+    <%= yield %>
     <%= partial "partials/contest" %>
     <%= partial "partials/tourdates" %>
     <%= partial "partials/social" %>
     <%= partial "partials/footer" %>
-    <%= yield %>
   </body>
 </html>
