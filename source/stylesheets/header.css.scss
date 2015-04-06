@@ -1,0 +1,143 @@
+.ptv{
+  max-width: 517px;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.abr{
+  max-width: 623px;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.btf{
+  max-width: 440px;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.aii{
+  max-width: 264px;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.head-wrap{
+  position: absolute;
+  z-index: -2;
+  margin: 0 auto;
+  text-align: center;
+}
+.head-center{
+  position: relative;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1170px;
+}
+.illustration{
+  max-width: 800px;
+  position: relative;
+  z-index: -5;
+  margin: 0 auto;
+  img{
+    margin: 50px auto 0 auto;
+  }
+}
+.wood{
+  background-image: url(https://s3.amazonaws.com/myfangate.com/fearlesssummer16/repeatingwood.jpg);
+  background-repeat: repeat;
+}
+.twobyfour{
+  background-image: url(https://s3.amazonaws.com/myfangate.com/fearlesssummer16/2x4.jpg);
+  background-repeat: repeat;
+  height: 25px;
+  border-left: 5px solid #000;
+  border-right: 5px solid #000;
+}
+.upanddown{
+  background-image: url(https://s3.amazonaws.com/myfangate.com/fearlesssummer16/upanddown.jpg);
+  background-repeat: repeat;
+  width: 25px;
+  height: inherit;
+  border-top: 5px solid #000;
+  border-bottom: 5px solid #000;
+  position: relative;
+}
+.border{
+  position: absolute;
+  top: 0;
+  width: 1170px;
+  margin: 0 auto;
+}
+.float-right{
+  float: right;
+}
+.float-left{
+  float: left;
+}
+.repeat{
+  background-image: url(https://s3.amazonaws.com/myfangate.com/fearlesssummer16/repeatingbackground.jpg);
+  background-repeat: repeat-x;
+  height: 1148px;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -9999;
+}
+
+.wooddivider{
+  background-image: url(https://s3.amazonaws.com/myfangate.com/fearlesssummer16/2x4.jpg);
+  background-repeat: repeat;
+  height: 25px;
+  margin-bottom: 15px;
+}
+
+.welcome{
+  margin: 14px auto 0 auto;
+}
+
+.featuring{
+  margin: 20px auto 10px auto;
+}
+// media queries
+@media (max-width: 1200px){
+ .border, .head-center{
+    max-width: 970px;
+  }
+}
+@media (max-width: 991px){
+ .border, .head-center{
+    max-width: 750px;
+  }
+  .head-wrap{
+    margin-top: 50px;
+  }
+  .twobyfour{
+    margin: 0 1%;
+  }
+}
+@media (max-width: 800px){
+  .repeat{
+    display: none;
+  }
+  .head-wrap{
+    margin-top: 70px;
+  }
+}
+@media (max-width: 768px){
+ .border{
+    max-width: 100%;
+    margin-left: 0px;
+  }
+  .twobyfour{
+    margin: 0 auto;
+  }
+  .head-wrap{
+    margin-top: 0;
+  }
+  .illustration img{
+    margin-top: 100px;
+  }
+}
+@media (max-width: 690px){
+  .illustration img{
+    margin-top: 150px;
+  }
+}

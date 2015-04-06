@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <!-- Always force latest IE rendering engine or request Chrome Frame -->
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <!-- Use title if it's in the page YAML frontmatter -->
+    <title><%= current_page.data.title || "Welcome To The Fearless Summer" %></title>
+    <%= stylesheet_link_tag "all" %>
+    <!-- JS  -->
+    <%= javascript_include_tag  "all" %>
+  </head>
+
+  <body class="<%= page_classes %>">
+    <%= partial "partials/header" %>
+    <%= partial "partials/contest" %>
+    <%= partial "partials/tourdates" %>
+    <%= partial "partials/social" %>
+    <%= partial "partials/footer" %>
+    <%= yield %>
+  </body>
+</html>
