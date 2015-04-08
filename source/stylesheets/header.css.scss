@@ -133,11 +133,38 @@
     margin-top: 0;
   }
   .illustration img{
-    margin-top: 100px;
+    margin-top: 50px;
+  }
+  .aii{
+    max-width: 200px;
   }
 }
 @media (max-width: 690px){
   .illustration img{
-    margin-top: 150px;
+    margin-top: 30px;
+  }
+  .aii{
+    max-width: 160px;
+  }
+}
+@media (max-width: 500px){
+  .illustration img{
+    margin-top: 0;
+  }
+  .aii{
+    max-width: 80px;
+    margin-left: -20px;
+  }
+  .abr{
+    margin-left: -20px;
+  }
+  .ptv, .btf{
+    margin-left: 20px;
+  }
+  .welcome{
+    margin-top: -10px;
+  }
+  .featuring{
+    margin: 0 auto;
   }
 }
